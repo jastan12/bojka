@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>Data page</title>
+</head>
+<body>
+<h2 th:text="'Bojka 3:' "></h2>
+
+<tr th:each="buoyDto: ${bojki}">
+    <td th:text="${buoyDto.toString()}"/><br>
+</tr>
+
+</body>
+</html>
