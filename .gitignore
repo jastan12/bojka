@@ -1,8 +1,10 @@
 HELP.md
+.mvn/
 target/
 !.mvn/wrapper/maven-wrapper.jar
 !**/src/main/**/target/
 !**/src/test/**/target/
+bojkaLog.txt
 
 ### STS ###
 .apt_generated
